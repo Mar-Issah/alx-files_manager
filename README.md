@@ -27,6 +27,10 @@ At the end of this project, you are expected to be able to explain to anyone, wi
 - Clone this repository and switch to the cloned repository's directory.
 - Install the packages using `yarn install` or `npm install`.
 
+### Environment Variables
+
+The required environment variables should be stored in a file named `.env` and each line should have the format `Name=Value`.
+
 ## Usage
 
 Start the Redis and MongoDB services on your system and run `yarn start-server` or `npm run start-server`.
