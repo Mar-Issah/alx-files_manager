@@ -15,11 +15,11 @@ const injectRoutes = (api) => {
   api.get('/status', AppController.getStatus);
   api.get('/stats', AppController.getStats);
 
-  // api.get('/connect', basicAuthenticate, AuthController.getConnect);
-  // api.get('/disconnect', xTokenAuthenticate, AuthController.getDisconnect);
+  api.get('/connect', basicAuthenticate, AuthController.getConnect);
+  api.get('/disconnect', xTokenAuthenticate, AuthController.getDisconnect);
 
-  // api.post('/users', UsersController.postNew);
-  // api.get('/users/me', xTokenAuthenticate, UsersController.getMe);
+  api.post('/users', UsersController.postNew);
+  api.get('/users/me', xTokenAuthenticate, UsersController.getMe);
 
   // api.post('/files', xTokenAuthenticate, FilesController.postUpload);
   // api.get('/files/:id', xTokenAuthenticate, FilesController.getShow);
