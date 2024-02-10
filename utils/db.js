@@ -1,11 +1,14 @@
 import mongodb from 'mongodb';
+// const mongodb = require('mongodb');
 // eslint-disable-next-line no-unused-vars
 import Collection from 'mongodb/lib/collection';
-import { existsSync, readFileSync } from 'fs';
-import { config as dotenvConfig } from 'dotenv';
+// const Collection = require('mongodb/lib/collection');
+// import { existsSync, readFileSync } from 'fs';
+import { config } from 'dotenv';
+//const { config } = require('dotenv');
 
 // Load environment variables from .env file
-dotenvConfig();
+config();
 
 /**
  * Loads environment variables from the .env file.
