@@ -14,7 +14,7 @@ At the end of this project, you are expected to be able to explain to anyone, wi
 - how to authenticate a user.
 - how to store data in MongoDB.
 - how to store temporary data in Redis.
-- how to setup and use a background worker
+- how to setup and use a background worker.
 - list, upload, view and change permissions for files
 
 ### Applications
