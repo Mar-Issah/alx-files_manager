@@ -25,7 +25,7 @@ export const basicAuthenticate = async (req, res, next) => {
  * @param {Response} res The Express response object.
  * @param {NextFunction} next The Express next function.
  */
-export const xTokenAuthenticate = async (req, res, next) => {
+export const authenticateWithXToken = async (req, res, next) => {
   const user = await getUserFromXToken(req);
 
   if (!user) {
