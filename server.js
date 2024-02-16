@@ -1,18 +1,16 @@
-import { config } from 'dotenv';
 import express from 'express';
 // import startServer from './libs/boot';
 import injectRoutes from './routes';
 // import injectMiddlewares from './libs/middlewares';
 
-config();
 const server = express();
 const port = process.env.PORT || 5000;
 
 // injectMiddlewares(server);
 // Middleware to parse JSON bodies
-server.use(express.json({ limit: '200mb' }));
+// server.use(express.json({ limit: '200mb' }));
 
-injectRoutes(server);
+// injectRoutes(server);
 
 // startServer(server);
 // const startServer = (api) => {

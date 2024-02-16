@@ -10,7 +10,7 @@ import { Request, Response } from 'express';
 import { contentType } from 'mime-types';
 import mongoDBCore from 'mongodb/lib/core';
 import dbClient from '../utils/db';
-import { getUserFromXToken } from '../utils/auth';
+// import { getUserFromXToken } from '../utils/auth';
 
 const FILE_TYPES = {
   folder: 'folder',
@@ -255,7 +255,7 @@ export default class FilesController {
    * @param {Response} res The Express response object.
    */
   static async getFile(req, res) {
-    const user = await getUserFromXToken(req);
+    // const user = await getUserFromXToken(req);
     const { id } = req.params;
     const size = req.query.size || null;
     const userId = user ? user._id.toString() : '';
