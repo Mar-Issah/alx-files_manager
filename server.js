@@ -10,7 +10,7 @@ const port = process.env.PORT || 5000;
 // Middleware to parse JSON bodies
 // server.use(express.json({ limit: '200mb' }));
 
-// injectRoutes(server);
+injectRoutes(server);
 
 // startServer(server);
 // const startServer = (api) => {
