@@ -1,6 +1,6 @@
 # Files Manager
 
-A simple file management API built with Express.js, MongoDB, Redis, Bull, and Node.js.
+A simple File management API built with Express.js, MongoDB, Redis, Bull, and Node.js.
 
 ![Repo size](https://img.shields.io/github/repo-size/Mar-Issah/alx-files_manager)
 ![Repo License](https://img.shields.io/github/license/Mar-Issah/alx-files_manager.svg)
